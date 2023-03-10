@@ -22,20 +22,34 @@ download the data from
 
 https://drive.google.com/drive/folders/18zqQiCJVgF7uzXgfbIJ-04zgz1ItNfF5?usp=sharing
 
+```zsh
 git init
+```
 
+```zsh
 dvc init
+```
 
+```zsh
 dvc add data_given/winequality.csv
+```
 
+```zsh
 git add .
+```
 
+```zsh
 git commit -m "first commit"
+```
 
 oneliner updates for readme
 
+```zsh
 git add . && git commit -m "update Readme.md"
+```
 
+```zsh
 git remote add origin https://github.com/chana678/simple_dvc_demo.git
 
 git push -u origin main
+```
