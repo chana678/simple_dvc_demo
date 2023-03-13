@@ -53,3 +53,33 @@ git remote add origin https://github.com/chana678/simple_dvc_demo.git
 
 git push -u origin main
 ```
+
+tox command -
+
+```zsh
+tox
+```
+
+for rebuilding -
+
+```zsh
+tox -r
+```
+
+pytest command -
+
+```zsh
+pytest -v
+```
+
+setup commands -
+
+```zsh
+pip install -e .
+```
+
+build your own package commands -
+
+```zsh
+python setup.py sdist bdist_wheel
+```
